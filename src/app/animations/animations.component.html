@@ -1,0 +1,8 @@
+<p>animations works!</p>
+<div [@openClose] = "isOpen ? 'open' : 'close'" class="open-close-container">
+<p>the box is now {{isOpen ? 'open' :  'close'}}!</p>
+</div>
+<button (click)="toggle()">toggle</button>
+<div (click)="Toggle()" class="container "  [@animation]="raj ? 'enter': 'leave'" style="height: 100px">
+<h1 >this is Raja sekhar</h1>
+</div>
